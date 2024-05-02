@@ -1,0 +1,34 @@
+
+.cards {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 3px dotted rgba(95, 48, 18, 0.824)
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cards >.card {
+    background-color: rgba(160, 130, 95, 0.559);
+    width: 25vw;
+    height: 45vh;
+}
+
+.cards >.card {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 15vw;
+    height: 30vh;
+}
+

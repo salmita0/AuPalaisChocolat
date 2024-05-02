@@ -1,0 +1,31 @@
+.slogan {
+    background-image: url('../images/choc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 1rem;
+}
+
+.slogan p {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family:fantasy;
+    font-style: italic;
+    font-weight: 500;
+
+    background-color: black;
+    opacity: 50%;
+ 
+}   
+.slogan >.cinzel {
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-size:45px;
+        font-style: italic;
+      } 

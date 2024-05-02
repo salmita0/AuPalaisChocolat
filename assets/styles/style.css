@@ -1,0 +1,24 @@
+@import url(navbar.css);
+@import url(slogan.css);
+/* @import url(cards.css); */
+
+
+.articles {
+  display: flex;
+  justify-content: 
+  center;
+  flex-wrap: wrap;
+  gap:1rem;
+}
+      
+.article {
+  background-color: rgba(113, 47, 17, 0.326);
+  border-radius: 5px;
+
+  max-width: 200px;
+}
+
+.articles >.article >img {
+  max-width: 15vw;
+  border-radius: 2rem;
+}
