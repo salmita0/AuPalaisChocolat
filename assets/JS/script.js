@@ -47,8 +47,6 @@ fetch(url)
     const produits = data.produits;
     const temoignages = data.temoignages;
 
-    
-
     produits.forEach(produit => {
       console.log(produit)
 
